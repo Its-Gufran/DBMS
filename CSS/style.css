@@ -1,0 +1,19 @@
+.navbar-brand{
+    padding-left: 10px;
+}
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+.testimonial-image{
+    display: block;
+    width: 100%;
+    margin: 0;
+
+    padding: 0;
+
+}
+.carousel-item{
+    padding: 7% 15%;
+}

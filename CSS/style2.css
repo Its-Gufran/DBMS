@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+/**** NAVBAR ****/
+
+.navbar{
+    padding:3%;
+}
+
+.navbar-brand{
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 15px;
+}
+
+/**** TITLE ****/
+
+#main-title{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.carousel-images{
+    height: 30rem;
+    width: 100%; 
+}
+
+/**** CARDS ****/
+
+#main-course{
+    padding: 5%;
+}
+
+.food-column{
+    padding: 0 2%;
+}
+
+.card-group{
+    padding: 0 4% 7%;
+}
+
+.card{
+    justify-content: center;
+}
+
+
+/* STATES */
+
+.states{
+    padding: 0 7%;
+    margin-bottom: 0;
+    font-size: 1.6rem;
+    display: block;
+    font-weight: 300;
+}
+
+.state-heading{
+    margin: 0, 0, 2.4rem;
+    color: blueviolet;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    font-weight: 500;
+}
+
+.individual-state{
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 3%;
+}
+
+.state-food{
+    display: inline-block;
+    text-align: left;
+    text-decoration: none;
+    color: cadetblue;
+    margin-bottom: 1.2rem;
+    width: 20%;
+    font-size: 1rem;
+    line-height: 1.8rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    vertical-align: bottom;
+    margin-right: 3rem;
+}
+
+/**** BUTTON ****/
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/**** CTA ****/
+
+#cta{
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: center;
+    padding:7% 15% ;
+    
+}
+
+.cta-heading{
+    font-family: "Montserrat-Black";
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+
+}
+
+/**** FOOTER ****/
+
+.bottom-container {
+    background-color: #FEECE9;
+    /* padding: 40px 0 5px ; */
+    padding: 2% 15%;
+    text-align: center;
+
+}
+
+
+.footer-link{
+    padding: 2%;
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 10px;
+    text-decoration: none;
+    
+}
+
+.copyright {
+    color: black;
+    font-size: 0.75rem;
+    padding: 20px 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    background-color: #ff4c68;
+    text-align: center;
+    display: block;
+    align-items: center;
+    /* font-weight: bold; */
+}
+/* pngs */
+#img1{
+    padding-top: 15px;
+    height: 100px;
+    width: 100px;
+    /* justify-content: center; */
+}
+#img2{
+    padding-top: 15px;
+    height: 100px;
+    width: 100px;
+    /* justify-content: center; */
+}
+#img3{
+    padding-top: 15px;
+    height: 100px;
+    width: 100px;
+    /* justify-content: center; */
+}
+#img4{
+    padding-top: 15px;
+    height: 100px;
+    width: 100px;
+    /* justify-content: center; */
+}
+h5{
+    font-weight: bold;
+}
+
