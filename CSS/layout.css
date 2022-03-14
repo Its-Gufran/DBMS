@@ -39,6 +39,18 @@
 .header-button {
   margin-left: auto;
 }
+#ejaz {
+  color: white;
+}
+#ejaz:hover{
+  color: black;
+}
+#ejaz1{
+  color: black;
+}
+#ejaz1:hover{
+  color:white ;
+}
 
 .btn-1 {
   border-radius: 25px;
