@@ -22,6 +22,30 @@
 .nav-item {
   padding: 0 15px;
 }
+/* DROPDOWN */
+  
+.states:hover{
+  color: gray;
+}
+
+.box-1{
+  padding: 1% 12% 1% 2%;
+}  
+
+.dropdown-menu{
+  width: 750px;
+}
+
+.dropdown-states{
+  display: flex;
+}
+
+.states{
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.1rem;
+  line-height: 2rem;
+}
 #home:hover {
   color: grey;
 }
