@@ -7,6 +7,7 @@
 
 .conatainer-fluid {
   margin-right: 100px;
+  position: fixed;
 }
 
 /* .navbar{
@@ -23,24 +24,24 @@
   padding: 0 15px;
 }
 /* DROPDOWN */
-  
-.states:hover{
+
+.states:hover {
   color: gray;
 }
 
-.box-1{
+.box-1 {
   padding: 1% 12% 1% 2%;
-}  
+}
 
-.dropdown-menu{
+.dropdown-menu {
   width: 750px;
 }
 
-.dropdown-states{
+.dropdown-states {
   display: flex;
 }
 
-.states{
+.states {
   text-decoration: none;
   color: #fff;
   font-size: 1.1rem;
@@ -66,14 +67,14 @@
 #ejaz {
   color: white;
 }
-#ejaz:hover{
+#ejaz:hover {
   color: black;
 }
-#ejaz1{
+#ejaz1 {
   color: black;
 }
-#ejaz1:hover{
-  color:white ;
+#ejaz1:hover {
+  color: white;
 }
 
 .btn-1 {
@@ -140,7 +141,7 @@
   font-weight: 500;
   line-height: 3.2rem;
   margin: 0, 0, 2.4rem;
-  padding-left: 4%;
+  padding-left: 7%;
   padding-top: 4%;
 }
 #trending1 {
