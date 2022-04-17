@@ -5,17 +5,25 @@ $gender = $_POST['gender'];
 $email = $_POST['email'];
 $phoneCode = $_POST['phoneCode'];
 $phone = $_POST['phone']; 
-if (!empty($username) || !empty($password) || !empty($gender) !empty($email) || !empty($phoneCode) || !empty($phone))
+if ((empty($username)) || (empty($password)) || (empty($gender)) || (empty($email)) || (empty($phoneCode)) || (empty($phone)))
 {
- $host = "localhost";
+    echo "All fields are required";
+    die();
+}
+else{
+
+    
+    $host = "localhost";
  $dbUsername = "root";
  $dbPassword = "Mgfzd786@";
  $dbname = "project1";
 
  //create connection
+ 
  $conn = new mysqli($host,$dbUsername,$dbPassword,$dbname);
 
  if (mysqli_connect_error()){
+     console.log(mysqli_connect_error());
      die('Connect Error('. mysqli_connect_error().')'. mysqli_connect_error());
  }else{
      $SELECT = "SELECT email from register where email = ? Limit 1";
@@ -45,8 +53,5 @@ if (!empty($username) || !empty($password) || !empty($gender) !empty($email) || 
      $stmt->close();
      $conn->close();
  }
-}else{
-    echo "All fields are required";
-    die();
 }
 ?>
